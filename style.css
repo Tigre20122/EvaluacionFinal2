@@ -1,0 +1,287 @@
+
+
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+.titulo{
+  background: #5b7989;
+}
+
+header ul{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5b7989;
+}
+header ul li {
+    float: left;
+}
+header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Dancing Script';
+}
+
+header ul li a:{
+  text-decoration: overline;
+}
+
+
+
+
+.fondo1{
+  background: #82c3a6;
+
+}
+.fondo1 img{
+  height: 40% !important;
+  width: 40% !important;
+  box-shadow: 2px #02010a;
+}
+.fondo2{
+  background: #d5c75f ;
+  border: 1px;
+  flex:auto;
+  box-shadow: 2px #02010a;
+}
+.fondo2 img{
+  height: 30% !important;
+  width: 30% !important;
+  box-shadow: 2px #02010a;
+
+}
+img{
+  border-radius: 20px;
+
+}
+
+#contenedor{
+  border: 2px solid;
+}
+
+#contenedor:hover{
+  transform: rotate(10deg);
+}
+
+#contenedor1{
+  border: 2px solid;
+}
+
+#contenedor1:hover{
+  transform: translate(20px,5px);
+  box-shadow: 2px #82c3a6;
+}
+
+.footer-distributed{
+	background-color: #C6d5c5;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 900px){
+  .fondo1 img{
+    height: 100% !important;
+    width: 100% !important;
+  }
+  .fondo2 img{
+    height: 100% !important;
+    width: 100% !important;
+
+}
+.efecto img{
+  height: 100% !important;
+  width: 100% !important;
+}
+.efecto2 img{
+  height: 100% !important;
+  width: 100% !important;
+}
+.efecto3 img{
+height: 100% !important;
+width: 100% !important;
+}
+}
+
+
+.efecto{
+  -webkit-filter:blur(10px);
+  filter:blur(10px);
+}
+
+.efecto2{
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
+.efecto3{
+  -webkit-filter:sepia(90%);
+  filter: sepia(90%);
+}
+
+
+}
